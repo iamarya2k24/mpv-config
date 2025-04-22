@@ -12,7 +12,7 @@ This repo contains my personal mpv configurations and scripts that I use and are
 
 ## Preview
 
-[![preview.png](https://i.postimg.cc/0QYzwWPn/preview.png)](https://postimg.cc/DJzfVcW4)
+[![Oppenheimer-2023.png](https://i.postimg.cc/4x8gr9pY/Oppenheimer-2023.png)](https://postimg.cc/v46knDqy)
 
 ## Installation
 
@@ -76,8 +76,8 @@ Scripts used:
   [source](https://github.com/CogentRedTester/mpv-scripts#cycle-profile)\
   Cycles through a list of profiles sent via a script message and prints the profile-desc to the OSD. More details at the top of the file.
 
-* [mordenx.lua](https://github.com/noelsimbolon/mpv-config/blob/linux/scripts/mordenx.lua) —
-  [source](https://github.com/cyl0/mpv-osc-morden-x)\
+* [modernz.lua](https://github.com/noelsimbolon/mpv-config/blob/linux/scripts/mordenz.lua) —
+  [source](https://github.com/Samillion/ModernZ)\
   A modern OSC UI replacement for MPV that retains the functionality of the default OSC.
 
 * [mpv-gif.lua](https://github.com/noelsimbolon/mpv-config/blob/linux/scripts/mpv-gif.lua) —
