@@ -97,33 +97,20 @@ Configuration files for these scripts can be found in the `script-opts` folder. 
 
 The shaders included in the `shaders` folder:
 
-* FSRCNNX_x2_16-0-4-1 ([source](https://github.com/igv/FSRCNN-TensorFlow/releases))\
-  Used for luma upscaling.
-  
-* nnedi3-nns256-win8x4 ([source](https://github.com/bjin/mpv-prescalers/tree/master))\
+* ArtCNN_C4F32 ([source](https://github.com/Artoriuz/ArtCNN/blob/main/GLSL/ArtCNN_C4F32.glsl))\
   Used for luma upscaling.
 
 * nnedi3-nns128-win8x4 ([source](https://github.com/bjin/mpv-prescalers/tree/master))\
   Used for luma upscaling.
-  
-* SSimDownscaler ([source](https://gist.github.com/igv))\
-  Used for luma downscaling.
-
-* KrigBilateral ([source](https://gist.github.com/igv))\
-  Used for chroma upscaling and downscaling.
 
 Use shaders based on your preference and system capabilities. For more info about shaders, read the resources in the [useful links](#useful-links) section.
 
 ## Useful Links
 
-* [mpv manual](https://mpv.io/manual/master/)\
-  Extremely useful for knowing what certain options do and what to put in `mpv.conf`
-* [mpv User Scripts](https://github.com/mpv-player/mpv/wiki/User-Scripts)\
-  Compilation of useful community-published scripts to be used with mpv
-* [mpv.conf guide](https://iamscum.wordpress.com/guides/videoplayback-guide/mpv-conf/) by iamscum\
-  I personally recommend this one over Kokomins'
+* [mpv tutorial](https://thewiki.moe/tutorials/mpv/) by The Wiki
+* [mpv.conf guide](https://iamscum.wordpress.com/guides/videoplayback-guide/mpv-conf/) by iamscum
 * [mpv Configuration Guide for Watching Videos](https://kokomins.wordpress.com/2019/10/14/mpv-config-guide/) by Kokomins
-* [Mathematically Evaluating mpv's Upscaling Algorithms](https://artoriuz.github.io/blog/mpv_upscaling.html) by João Vitor Chrisóstomo
+* [mpv Resampling](https://artoriuz.github.io/blog/mpv_upscaling.html) by João Vitor Chrisóstomo
 
 ## Official Links
 
@@ -131,3 +118,4 @@ Use shaders based on your preference and system capabilities. For more info abou
 * [mpv wiki](https://github.com/mpv-player/mpv/wiki)
 * [mpv FAQ](https://github.com/mpv-player/mpv/wiki/FAQ)
 * [mpv manual](https://mpv.io/manual/stable/)
+* [mpv User Scripts](https://github.com/mpv-player/mpv/wiki/User-Scripts)
