@@ -14,21 +14,15 @@ This repo contains my personal mpv configurations and scripts that I use and are
 
 [![preview.png](https://i.postimg.cc/8zNHHPHy/preview.png)](https://postimg.cc/VdZnsw2M)
 
+
+## Hotkeys for gif
+* g - Start time
+* G - End time
+* CTRL+g - Export GIF
+* CTRL+G - Export GIF with subtitles
+
+
 ## Installation
-
-### Windows
-
-Here are the steps to install mpv and to use my configuration files on Windows:
-* Download the latest 64bit mpv Windows build by shinchiro from [mpv.io/installation](https://mpv.io/installation/) or directly from [here](https://sourceforge.net/projects/mpv-player-windows/files/) and extract it wherever you please. This is now your mpv folder
-* Run `mpv-install.bat`, which is located in `installer` folder, with administrator priviledges by right-clicking and selecting Run as administrator
-* Download this repository as a ZIP file (or you can clone it using git)
-* Create a folder named `portable_config` (**this is important**), located at the same directory as `mpv.exe`
-* Extract or copy the contents of this repository that you have downloaded to the `portable_config` folder
-* To make some scripts work, you need to modify them from the release a little bit:
-  * In order for the `mpv-gif.lua` script to work, it requires [FFmpeg](https://ffmpeg.org/) with libass enabled and accessible via terminal. See the [installation instructions](https://github.com/Scheliux/mpv-gif-generator#installation) from the script's source repository for further info.
-  * **(Optional)** By default, the `mpv-gif.lua` script saves GIFs to `C:/Program Files/mpv/gifs`. To modify this, open `gif.conf`, which is located in `portable_config/script-opts` folder, with a text editor and specify the `dir`, which is output directory for GIFs, as you please. For example `dir="C:/Users/USERNAME/Pictures/mpv-gifs"`.
-* **(Optional)** Make your own mpv configuration. You can do that by modifying my configuration files and/or making your own from scratch or modifying others' configurations. Check out the [useful links](#useful-links) section for mpv configuration guides.
-* You're all set up.
 
 ### Linux
 
@@ -53,6 +47,21 @@ Here are the steps to install mpv and to use my configuration files on Linux:
   * **(Optional)** By default, the `mpv-gif.lua` script saves GIFs to `~/Videos/mpv-gifs`. To modify this, open `gif.conf`, which is located in `portable_config/script-opts` folder, with a text editor and specify the `dir`, which is output directory for GIFs, as you please. For example `dir="~/Videos"`.
 * **(Optional)** Make your own mpv configuration. You can do that by modifying my configuration files and/or making your own from scratch or modifying others' configurations. Check out the [useful links](#useful-links) section for mpv configuration guides.
 * You're all set up.
+
+### Windows
+
+Here are the steps to install mpv and to use my configuration files on Windows:
+* Download the latest 64bit mpv Windows build by shinchiro from [mpv.io/installation](https://mpv.io/installation/) or directly from [here](https://sourceforge.net/projects/mpv-player-windows/files/) and extract it wherever you please. This is now your mpv folder
+* Run `mpv-install.bat`, which is located in `installer` folder, with administrator priviledges by right-clicking and selecting Run as administrator
+* Download this repository as a ZIP file (or you can clone it using git)
+* Create a folder named `portable_config` (**this is important**), located at the same directory as `mpv.exe`
+* Extract or copy the contents of this repository that you have downloaded to the `portable_config` folder
+* To make some scripts work, you need to modify them from the release a little bit:
+  * In order for the `mpv-gif.lua` script to work, it requires [FFmpeg](https://ffmpeg.org/) with libass enabled and accessible via terminal. See the [installation instructions](https://github.com/Scheliux/mpv-gif-generator#installation) from the script's source repository for further info.
+  * **(Optional)** By default, the `mpv-gif.lua` script saves GIFs to `C:/Program Files/mpv/gifs`. To modify this, open `gif.conf`, which is located in `portable_config/script-opts` folder, with a text editor and specify the `dir`, which is output directory for GIFs, as you please. For example `dir="C:/Users/USERNAME/Pictures/mpv-gifs"`.
+* **(Optional)** Make your own mpv configuration. You can do that by modifying my configuration files and/or making your own from scratch or modifying others' configurations. Check out the [useful links](#useful-links) section for mpv configuration guides.
+* You're all set up.
+
 
 ## Scripts
 
@@ -104,13 +113,6 @@ The shaders included in the `shaders` folder:
   Used for luma upscaling.
 
 Use shaders based on your preference and system capabilities. For more info about shaders, read the resources in the [useful links](#useful-links) section.
-
-
-## Hotkeys
-* g - Start time
-* G - End time
-* CTRL+g - Export GIF
-* CTRL+G - Export GIF with subtitles
 
 ## Useful Links
 
